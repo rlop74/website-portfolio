@@ -1,0 +1,47 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main_menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 100%;
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    border: 20px solid transparent
+}
+
+/*vertical nagivation bar - https://www.w3schools.com/css/css_navbar_vertical.asp */
+li.menu a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li.menu a:hover {
+    background-color: #555;
+    color: white;
+}
+
+/*not working
+li a.active {
+    background-color: gray;
+    color: white;
+}
+*/
+
+/*Horizontal Navigation Bar - https://www.w3schools.com/css/css_navbar_horizontal.asp */
+
+#profile_pic {
+    margin-left: 250px;
+}
+
+.summary {
+    float: right;
+    margin-right: 600px;
+    margin-top: 100px;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}

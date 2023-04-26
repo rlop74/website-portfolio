@@ -45,3 +45,7 @@ li a.active {
     font-size: 50px;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.main-content {
+    margin-left: 250px;
+}
